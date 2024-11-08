@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 600px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(10, 79%, 65%);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+header nav p{
+    font-weight: 400;
+    padding-bottom: 7px;
+}
+section{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+section h1{
+    color: hsl(25, 47%, 15%);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+section .bars{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+section .bars .one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .one .bar1{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .one .num1{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .one .mon{
+    color: hsl(28, 10%, 53%);
+}
+section .bars .two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .two .bar2{
+    width: 50px;
+    height: 100px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .two .num2{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .two .tue{
+    color: hsl(28, 10%, 53%);
+}
+section .bars .three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .three .bar3{
+    width: 50px;
+    height: 150px;
+    background-color: hsl(186, 34%, 60%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .three .num3{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .three .wed{
+    color: hsl(28, 10%, 53%);
+}
+section .bars .four{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .four .bar4{
+    width: 50px;
+    height: 90px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .four .num4{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .four .thu{
+    color: hsl(28, 10%, 53%);
+}
+section .bars .five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .five .bar5{
+    width: 50px;
+    height: 60px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .five .num5{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .five .fri{
+    color: hsl(28, 10%, 53%);
+}
+section .bars .six{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .six .bar6{
+    width: 50px;
+    height: 120px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .six .num6{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .six .sat{
+    color: hsl(28, 10%, 53%);
+}
+section .bars .seven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .bars .seven .bar7{
+    width: 50px;
+    height: 70px;
+    background-color: hsl(10, 79%, 65%);
+    margin-bottom: 3px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+section .bars .seven .num7{
+    background-color: hsl(25, 47%, 15%);
+    color: white;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 5px;
+}
+section .bars .seven .sun{
+    color: hsl(28, 10%, 53%);
+}
+section hr{
+    margin-bottom: 30px;
+}
+section .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+section .bottom .left p{
+    color: hsl(28, 10%, 53%);
+    margin-bottom: 5px;
+}
+section .bottom .left h2{
+    font-size: 35px;
+    color: hsl(25, 47%, 15%);
+}
+section .bottom .right{
+    margin-top: 20px;
+}
+section .bottom .right .per{
+    color: hsl(25, 47%, 15%);
+    text-align: end;
+}
+section .bottom .right .aa{
+    color: hsl(28, 10%, 53%);
+}
+.hidden{
+    display: none;
+}
